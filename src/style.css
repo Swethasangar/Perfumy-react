@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  li {
+    color: grey;
+    cursor: pointer;
+  }
+  li:hover {
+    color: white;
+  }
+  .box {
+    display: inline-block;
+    border: black 2px solid;
+    width: 220px;
+    /* padding:20px; */
+    margin-left: 10px;
+  }
+  .productbox {
+    text-align: center;
+    padding: 50px;
+  }
+  .box:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
